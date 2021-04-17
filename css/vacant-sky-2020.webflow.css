@@ -620,6 +620,7 @@ figure {
 }
 
 .grid.featured {
+  padding-top: 20px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   -ms-grid-columns: 2fr 1.25fr;
@@ -2463,6 +2464,10 @@ figure {
   margin-top: 60px;
 }
 
+.paragraph-3 {
+  text-align: center;
+}
+
 @media screen and (max-width: 991px) {
   .navigation {
     position: relative;
@@ -3596,6 +3601,13 @@ figure {
 }
 
 #w-node-_1fe4ba58-91a0-1a1e-c725-b15f6cc7e205-a723b6a0 {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+}
+
+#w-node-e162d05e-61a9-7d54-6cdf-cb9c3805f7c4-a723b6a0 {
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
   -ms-grid-row-align: stretch;
